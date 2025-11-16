@@ -1,0 +1,199 @@
+:root {
+    --dark-color: #19283f;
+    
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --blue-color:#116bf5;
+    --section-color: #eff7fa;
+    /* --bor-color:#ff096f; */
+    --hover-background:rgba(51,209,204,0.4);
+}
+ 
+/* start navbar */
+.navbar{
+    background-color: var(--dark-color) !important;
+}
+.navbar .navbar-nav  .nav-link:hover{
+    color: var(--green-color) !important;
+    transition: 0.7s ease-in-out ;
+}
+.navbar .store{
+    color: var(--green-color);
+    border-left:2px solid var(--green-color) !important;
+}
+/* End   */
+/* start carousel */
+.carousel .carousel-inner .carousel-item img{
+    height: 100vh;
+    object-fit: cover;
+}
+.carousel .angles{
+    color: var(--green-color);
+    font-size: 40px !important;
+}
+.carousel .carousel-inner .carousel-caption{
+    background-color: rgba(25,40,63,.4);
+    bottom: 8rem;
+     transition: ease .7s;
+}
+.carousel .carousel-inner .carousel-caption:hover{
+    background-color:var(--hover-background);
+}
+.carousel  .carousel-indicators button{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    transition: ease 0.4;
+    
+}
+
+
+.carousel  .carousel-indicators .active{
+  background-color: var(--green-color);
+}
+/* End carousel */
+/* start offcanvas */
+.offcanvas .offcanvas-body .offcan-img{
+    width: 250px !important;
+    height: 300px !important;
+    transition: ease all 1s;
+}
+.offcanvas .offcanvas-body .offcan-img:hover{
+  transform:rotate(10deg);
+
+}
+
+.offcanvas .offcanvas-body .all-price{
+    color: var(--red-color);
+}
+/* End offcanvas */
+
+/* start card store */
+.card-store ul li{
+    transition: none ease .7s;
+    cursor: pointer;
+}
+.card-store .col-lg-3 .card{
+ transition: ease .7s;
+}
+.card-store ul .active{
+    background-color: #116bf5 !important;  
+}
+.card-store img{
+    height: 250px;
+    width: 100%;
+    transition:  cubic-bezier(0.18, 0.89, 0.32, 1.28) 1s;
+}
+.card-store img:hover{
+   transform: scale(1.1);
+}
+.card-store .bluecimon{
+    color: var(--blue-color);
+}
+
+.modal-body .carousel-item img{
+    height: 270px !important;
+}
+/* End card store */
+
+/* start contact */
+
+.contact{
+    height: 60vh;
+    background-image: url('../img/slider-1.jpg')  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+.contact .input-group input{
+  border-radius: 0 20px 20px 0 !important;
+}
+.contact .input-group button{
+  border-radius: 20px 0 0  20px !important;
+}
+/* End contact */
+
+#services h5{
+    color: var(--red-color) !important;
+}
+
+.ndnd .row img{
+         height: 90px;
+}
+
+footer{
+    background-color: var(--dark-color);
+}
+footer h2{
+    color: var(--blue-color);
+}
+footer .facebook{
+background-color: #1877f2;
+}
+footer .twitter{
+background-color: #1da1f2;
+}
+footer .linkedin{
+background-color: #0077b5;
+}
+footer .youtube{
+background-color: #ff0000;
+}
+footer a :hover{
+    transition: ease .7s;
+      transform: scale(1.1);
+}
+/* section ALL*/
+.section{
+    background-color: var(--section-color);
+}
+
+.btn-store:hover{
+    background-color: var(--red-color) !important;
+    border-radius: 20px;
+    transition: ease .7s;
+}
+.bor-bott{
+    border-bottom: 5px solid var(--green-color);
+}
+.price{
+    color: var(--blue-color);
+}
+.hover-green{
+    transition: ease .7s;
+}
+.hover-green:hover{
+    transform: scale(1.5);
+ color: var(--green-color);
+}
+
+
+
+
+
+
+
+
+/* scroll */
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:var(--dark-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--green-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
